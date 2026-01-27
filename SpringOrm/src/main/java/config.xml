@@ -18,8 +18,8 @@
 	<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="ds">
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/SpringJdbc" />
-		<property name="username" value="root" />
-		<property name="password" value="samratdesai712004" />
+		<property name="username" value="Your_Username_Goes_Here" />
+		<property name="password" value="Your_Password_Goes_here" />
 	</bean>
 <!-- session factory bean -->
 	<bean
